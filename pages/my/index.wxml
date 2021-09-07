@@ -1,0 +1,4 @@
+<!--pages/my/index.wxml-->
+<menuBtn selected="3" backgrounds="#fafdf5" color="#aaaaaa"></menuBtn>
+<welcome></welcome>
+

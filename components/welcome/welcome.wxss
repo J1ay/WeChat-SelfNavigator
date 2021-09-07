@@ -1,0 +1,25 @@
+/* components/welcome/welcome.wxss */
+page{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.tx{
+  border-radius: 50%;
+  width: 200rpx;
+  height: 200rpx;
+  border: 1px solid #eaeaea;
+  margin-top: 6vh;
+}
+.tx image{
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: block;
+  animation: xuanzhuan  6s  infinite linear;
+}
+@keyframes xuanzhuan {
+  from {transform: rotate(0)}
+  to {transform: rotate(360deg)}
+}

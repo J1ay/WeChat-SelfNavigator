@@ -1,0 +1,4 @@
+<!--pages/order/index.wxml-->
+<menuBtn selected="2" type="1"></menuBtn>
+<welcome></welcome>
+

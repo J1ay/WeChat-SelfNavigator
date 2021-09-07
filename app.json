@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/main/index",
+    "pages/search/index",
+    "pages/order/index",
+    "pages/my/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#22a6b3",
+    "navigationBarTitleText": "小程序组件",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#999",
+    "selectedColor": "#22a6b3",
+    "backgroundColor": "#f3fbfb",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/main/index",
+      "text": "拼车",
+      "iconPath": "./icons/car.png",
+      "selectedIconPath": "./icons/car_click.png"
+    },
+    {
+      "pagePath": "pages/search/index",
+      "text": "搜索",
+      "iconPath": "./icons/search.png",
+      "selectedIconPath": "./icons/search_click.png"
+    },
+    {
+      "pagePath": "pages/order/index",
+      "text": "订单",
+      "iconPath": "./icons/order.png",
+      "selectedIconPath": "./icons/order_click.png"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "text": "个人中心",
+      "iconPath": "./icons/my.png",
+      "selectedIconPath": "./icons/my-click.png"
+    }
+   ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

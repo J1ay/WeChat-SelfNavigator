@@ -1,0 +1,11 @@
+<!--components/menuBtn/menuBtn.wxml-->
+<view class="tabs enHigh" style=" background: {{ backgrounds }}; color: {{color}}; " >
+  <view class="meunBtn" style="font-size: {{fontSize}}rpx;" wx:for="{{navList}}" wx:key="index">
+    <navigator url="{{item.pagePath}}" class="nav {{type == 1 ? 'column' : ''}}" open-type="switchTab" hover-class="none">
+      <view class="left">
+        <image src="{{selected == index ? item.selectedIconPath : item.iconPath}}"></image>
+      </view>
+      <view style="color: {{selected == index ? selectedColor : color}};{{ type == 1 ? 'margin-top:2rpx' : 'margin-left: 4rpx;'}}">{{item.text}}</view>
+    </navigator>
+  </view>
+</view>

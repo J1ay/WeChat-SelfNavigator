@@ -1,0 +1,3 @@
+<!--pages/main/index.wxml-->
+<menuBtn selected="0"></menuBtn>
+<welcome></welcome>

@@ -1,0 +1,9 @@
+<!--components/welcome/welcome.wxml-->
+<view style="margin-top: 24vh;">
+  <view>
+    仅用于测试- J1ay
+  </view>
+  <view class="tx">
+    <image src="/images/1.jpg"></image>
+  </view>
+</view>
